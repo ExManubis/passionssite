@@ -37,3 +37,47 @@ img {
 }
 
 /* TYPOGRAPHY */
+/* Fonts */
+@font-face {
+  font-family: appareo;
+  src: url("../fonts/appareo.woff2");
+}
+
+@font-face {
+  font-family: hero;
+  src: url("../fonts/brightwall.woff2");
+}
+
+@font-face {
+  font-family: headings;
+  src: url("../fonts/ashfortbrush.woff2");
+}
+
+/* Headings */
+h1 {
+  font-family: "hero";
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: "headings";
+  font-size: 3rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: "headings";
+  font-size: 2rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-family: "appareo";
+}
+
+p {
+  font-size: 1rem;
+  font-family: "appareo";
+}
