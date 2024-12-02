@@ -58,26 +58,57 @@ h1 {
   font-family: "hero";
   font-size: 4rem;
   text-align: center;
+  color: var(--text_secondary);
 }
 
 h2 {
   font-family: "headings";
   font-size: 3rem;
   text-align: center;
+  color: var(--text_primary);
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
 h3 {
   font-family: "headings";
   font-size: 2rem;
   text-align: center;
+  color: var(--text_primary);
 }
 
 h4 {
   font-size: 1.5rem;
   font-family: "appareo";
+  color: var(--text_primary);
 }
 
 p {
   font-size: 1rem;
   font-family: "appareo";
+  color: var(--text_primary);
+}
+
+/* VIDEO */
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  playsinline: true;
+  display: block;
+}
+/* ELEMENTS */
+body {
+  background-color: var(--surface_primary);
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 5vh;
 }

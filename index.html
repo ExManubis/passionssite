@@ -8,23 +8,55 @@
     <link href="css/mobile.css" rel="stylesheet" />
     <link href="css/desktop.css" rel="stylesheet" />
   </head>
-  <header></header>
+  <header>
+    <nav>
+      <div class="logo">
+        <h3>Logo</h3>
+      </div>
+      <div class="title">
+        <h3>Passionssite</h3>
+      </div>
+    </nav>
+  </header>
   <body>
-    <div class="hero">
-      <h1>Passionssite</h1>
-    </div>
     <div class="grid">
-      <h2>Overskrift</h2>
-      <h3>Underoverskrift</h3>
-      <p>Paragraf tekst.</p>
-      <img src="imgs/img_1.webp" alt="Placeholder." id="img_1" />
+      <div class="hero">
+        <h1 id="hero">Passionssite</h1>
+      </div>
+      <h2 id="h2_s1">Overskrift</h2>
+      <h4>Underoverskrift</h4>
+      <p>
+        Mental træning handler om at rykke sig. Rykke sig til et sted man gerne
+        vil være, og som man ved man kan komme hen.
+      </p>
+      <img src="imgs/img_1.webp" alt="Placeholder." id="img_1" class="boxed" />
     </div>
+    <img src="svg/line.svg" alt="" class="line" id="line_1" />
     <div class="grid">
-      <h2>Underoverskrift</h2>
-      <img src="imgs/img_1.webp" alt="Placeholder" id="img_2" />
-      <img src="imgs/img_1.webp" alt="Placeholder" id="img_3" />
-      <img src="imgs/img_1.webp" alt="Placeholder" id="img_4" />
-      <img src="imgs/img_1.webp" alt="Placeholder" id="img_5" />
+      <h2>Galleri</h2>
+      <img src="imgs/img_1.webp" alt="Placeholder" id="img_2" class="boxed" />
+      <img src="imgs/img_1.webp" alt="Placeholder" id="img_3" class="boxed" />
+      <img src="imgs/img_1.webp" alt="Placeholder" id="img_4" class="boxed" />
+      <img src="imgs/img_1.webp" alt="Placeholder" id="img_5" class="boxed" />
+    </div>
+    <img src="svg/line.svg" alt="" class="line" />
+    <div class="grid">
+      <h2>Video</h2>
+      <iframe
+        src="https://www.youtube.com/embed/uEQ2wkJzO0s?si=vVQfXei3PNPLFlYt"
+        title="YouTube video player"
+        frameborder="0"
+        class="boxed"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <video
+        src="video/video.mp4"
+        controls
+        poster="imgs/poster.webp"
+        class="boxed"
+      ></video>
     </div>
   </body>
   <footer>
