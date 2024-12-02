@@ -10,3 +10,30 @@ img {
   height: auto;
   display: block;
 }
+
+/* COLORSCHEME */
+:root {
+  /* Primitives */
+  /* grey */
+  --black: #252525;
+  /* brown */
+  --brown50: #f8f6e7;
+  --brown100: #bfb9a4;
+  /* green */
+  --green50: #737153;
+  --green100: #595943;
+
+  /* Tokens */
+  /* text */
+  --text_primary: var(--black);
+  --text_secondary: var(--green100);
+  --text_inverted: var(--brown50);
+  /* surfaces */
+  --surface_primary: var(--brown50);
+  --surface_secondary: var(--brown100);
+  --surface_third: var(--green100);
+  /* borders */
+  --border_primary: var(--green50);
+}
+
+/* TYPOGRAPHY */
