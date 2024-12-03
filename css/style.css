@@ -62,12 +62,10 @@ h1 {
 }
 
 h2 {
-  font-family: "headings";
+  font-family: "hero";
   font-size: 3rem;
   text-align: center;
-  color: var(--text_primary);
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+  color: var(--text_secondary);
 }
 
 h3 {
@@ -104,6 +102,25 @@ video {
   display: block;
 }
 /* ELEMENTS */
+header {
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  height: 10vh;
+  padding: 1vh;
+  margin: 2vh;
+}
+
+.logo {
+  align-self: left;
+  margin-right: 10vh;
+}
+
+.title {
+  align-self: center;
+  margin-right: 10vh;
+}
+
 body {
   background-color: var(--surface_primary);
 }
