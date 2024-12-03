@@ -2,6 +2,15 @@
   header {
     height: 10vh;
   }
+
+  nav {
+    width: 0vw;
+  }
+
+  nav.active .menu {
+    width: 40vw;
+  }
+
   .burger_icon {
     height: 4vh;
     width: 4vw;
