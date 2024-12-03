@@ -73,6 +73,13 @@
     grid-row: 7 / span 6;
   }
 
+  .image_text {
+    grid-column: 7 / span 6;
+    grid-row: 9 / span 2;
+    place-self: start center;
+    font-size: 3rem;
+  }
+
   /* LINE 1 */
   #line_1 {
     margin-top: -70vh;

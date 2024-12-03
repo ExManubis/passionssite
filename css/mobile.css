@@ -33,6 +33,18 @@
 #img_1 {
   grid-column: 1 / span 12;
   grid-row: 10 / span 3;
+  text-align: center;
+}
+
+.image_text {
+  grid-column: 1 / span 12;
+  grid-row: 12 / span 1;
+  place-self: center;
+  transform: translateY(-90%);
+  font-family: headings;
+  font-size: 2rem;
+  color: var(--text_inverted);
+  text-shadow: 2px 2px #252525;
 }
 
 /* SECTION 2 */
