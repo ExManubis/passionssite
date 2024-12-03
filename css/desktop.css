@@ -1,4 +1,21 @@
 @media screen and (min-width: 800px) {
+  header {
+    height: 10vh;
+  }
+
+  nav {
+    width: 0vw;
+  }
+
+  nav.active .menu {
+    width: 40vw;
+  }
+
+  .burger_icon {
+    height: 4vh;
+    width: 4vw;
+    margin-top: 0;
+  }
   .grid {
     width: 90vw;
   }
@@ -7,11 +24,17 @@
     aspect-ratio: unset;
   }
 
+  h3 {
+    font-size: 3rem;
+  }
+
   h4 {
     font-size: 1.5rem;
     font-style: italic;
     line-height: 150%;
     text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
   p {
     font-size: 1.5rem;

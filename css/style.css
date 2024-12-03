@@ -113,23 +113,84 @@ video {
 header {
   display: flex;
   align-items: center;
-  z-index: 1;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+  background-color: var(--surface_primary);
+  opacity: 0.9;
+  width: 100vw;
   height: 10vh;
-  padding: 1vh;
-  margin: 2vh;
+  padding-top: 2vh;
+  top: 0vh;
+  padding: 0vh 5vw 0vh 5vw;
 }
 
 .logo {
   align-self: left;
-  margin-right: 10vh;
 }
 
 .title {
   align-self: center;
-  margin-right: 10vh;
+}
+
+.burger_icon {
+  display: block;
+  margin-top: 2.5vh;
+  width: 5vw;
+  height: 5vh;
+  cursor: pointer;
+}
+
+nav {
+  position: fixed;
+  height: 100vh;
+  width: 0vw;
+  z-index: 1;
+}
+
+.menu {
+  height: 100vh;
+  width: 0vw;
+  opacity: 0;
+  background-color: var(--surface_secondary);
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  transition: ease-in 0.5s;
+  transform: translateX(130%);
+}
+
+nav.active .menu {
+  width: 100vw;
+  opacity: 0.9;
+  transition: ease-out 0.6s;
+  transform: translateX(0);
+  z-index: 3;
+}
+
+.menu ul {
+  margin-top: 20vh;
+  margin-right: 2vw;
+  text-align: right;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text_secondary);
+  font-family: body;
+  font-size: 2rem;
+  transition: ease-in 0.5s;
+}
+
+a:hover {
+  color: var(--text_inverted);
+  transition: ease-out 0.5s;
 }
 
 body {
+  margin-top: 20vh;
   background-color: var(--surface_primary);
 }
 
