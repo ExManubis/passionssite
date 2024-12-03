@@ -68,13 +68,15 @@
     margin: -6rem 2rem 0rem 2rem;
   }
 
-  .container {
+  #img_1 {
     grid-column: 7 / span 6;
     grid-row: 7 / span 6;
   }
 
   .image_text {
-    transform: translate(-40%, -900%);
+    grid-column: 7 / span 6;
+    grid-row: 9 / span 2;
+    place-self: start center;
     font-size: 3rem;
   }
 
