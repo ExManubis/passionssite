@@ -141,6 +141,22 @@ header {
   cursor: pointer;
 }
 
+.burger_icon.active {
+  display: none;
+}
+
+.exit_icon {
+  display: none;
+  margin-top: 2.5vh;
+  width: 5vw;
+  height: 5vh;
+  cursor: pointer;
+}
+
+.exit_icon.active {
+  display: block;
+}
+
 nav {
   position: fixed;
   height: 100vh;

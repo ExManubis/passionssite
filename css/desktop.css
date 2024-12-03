@@ -20,6 +20,13 @@
     width: 4vw;
     margin-top: 0;
   }
+
+  .exit_icon {
+    height: 3vh;
+    width: 3vw;
+    margin-top: 0;
+  }
+
   .grid {
     width: 90vw;
   }
