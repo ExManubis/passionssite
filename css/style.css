@@ -79,7 +79,7 @@ h4 {
   font-size: 1.5rem;
   font-family: "body";
   color: var(--text_primary);
-  overflow-wrap: break-words;
+  overflow-wrap: break-word;
   hyphens: auto;
   margin-bottom: 0.5rem;
 }
@@ -88,7 +88,7 @@ p {
   font-size: 1rem;
   font-family: "body";
   color: var(--text_primary);
-  overflow-wrap: break-words;
+  overflow-wrap: break-word;
   hyphens: auto;
   line-height: 150%;
   margin-bottom: 1rem;
@@ -105,7 +105,6 @@ video {
   width: 100%;
   height: auto;
   aspect-ratio: 16/9;
-  playsinline: true;
   display: block;
 }
 
@@ -123,14 +122,6 @@ header {
   padding-top: 2vh;
   top: 0vh;
   padding: 0vh 5vw 0vh 5vw;
-}
-
-.logo {
-  align-self: left;
-}
-
-.title {
-  align-self: center;
 }
 
 .burger_icon {
