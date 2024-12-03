@@ -7,10 +7,19 @@
     aspect-ratio: unset;
   }
 
+  h4 {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 150%;
+    text-align: center;
+  }
   p {
     font-size: 1.5rem;
   }
 
+  .boxed {
+    border-image: url("../svg/box.svg") 40;
+  }
   /* SECTION 1 */
   .hero {
     grid-row: 1 / span 4;
@@ -29,7 +38,7 @@
   #about {
     grid-column: 1 / span 6;
     grid-row: 8 / span 5;
-    margin: -5rem 2rem 0rem 2rem;
+    margin: -6rem 2rem 0rem 2rem;
   }
 
   #img_1 {
