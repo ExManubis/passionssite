@@ -30,9 +30,23 @@
   grid-row: 8 / span 2;
 }
 
-#img_1 {
+.container {
   grid-column: 1 / span 12;
   grid-row: 10 / span 3;
+  text-align: center;
+  color: var(--text_inverted);
+  position: relative;
+  display: inline-block;
+}
+
+.image_text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  font-family: headings;
+  font-size: 2rem;
+  text-shadow: 2px 2px #252525;
+  transform: translate(-50%, -50%);
 }
 
 /* SECTION 2 */
