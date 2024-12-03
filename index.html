@@ -21,7 +21,18 @@
   <body>
     <div class="grid">
       <div class="hero">
-        <h1 id="hero">Passionssite</h1>
+        <script
+          src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+          type="module"
+        ></script>
+        <dotlottie-player
+          src="https://lottie.host/927d30d3-a7be-496b-8bfd-ea271089a00e/8yxAxpso6G.lottie"
+          background="transparent"
+          speed="1"
+          style="width: 100%; height: auto"
+          loop
+          autoplay
+        ></dotlottie-player>
       </div>
       <h2 id="h2_s1">Overskrift</h2>
       <h4>Underoverskrift</h4>
@@ -41,7 +52,7 @@
     </div>
     <img src="svg/line.svg" alt="" class="line" />
     <div class="grid">
-      <h2>Video</h2>
+      <h2 id="video">Video</h2>
       <iframe
         src="https://www.youtube.com/embed/uEQ2wkJzO0s?si=vVQfXei3PNPLFlYt"
         title="YouTube video player"
@@ -51,6 +62,7 @@
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
       ></iframe>
+      <img src="svg/line.svg" alt="" class="line" />
       <video
         src="video/video.mp4"
         controls
@@ -58,6 +70,7 @@
         class="boxed"
       ></video>
     </div>
+    <img src="svg/line_vert.svg" alt="" id="bottom_line" />
   </body>
   <footer>
     <p>By CodeMonkey. No rights reserved.</p>
