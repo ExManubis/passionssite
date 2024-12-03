@@ -6,6 +6,11 @@
   img {
     aspect-ratio: unset;
   }
+
+  p {
+    font-size: 1.5rem;
+  }
+
   /* SECTION 1 */
   .hero {
     grid-row: 1 / span 4;
@@ -24,7 +29,7 @@
   #about {
     grid-column: 1 / span 6;
     grid-row: 8 / span 5;
-    margin: 2rem;
+    margin: -5rem 2rem 0rem 2rem;
   }
 
   #img_1 {
@@ -34,7 +39,7 @@
 
   /* LINE 1 */
   #line_1 {
-    margin-top: -60vh;
+    margin-top: -70vh;
   }
   /* SECTION 2 */
   #gallery {
@@ -67,20 +72,15 @@
   /* SECTION 3 */
   video {
     grid-column: 1 / span 6;
-    grid-row: 3 / span 9;
+    grid-row: 3 / span 10;
   }
 
   iframe {
     grid-column: 7 / span 6;
-    grid-row: 3 / span 9;
+    grid-row: 3 / span 10;
   }
 
   #line_2 {
     display: none;
-  }
-
-  #bottom_line {
-    grid-row: 12;
-    margin-top: -40vh;
   }
 }

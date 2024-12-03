@@ -114,10 +114,6 @@ video {
 }
 
 /* FOOTER */
-#bottom_line {
-  grid-column: 1 / span 12;
-  grid-row: 12;
-  width: 90vw;
-  margin-bottom: -25vh;
-  align-self: center;
+footer {
+  margin-top: -40vh;
 }
