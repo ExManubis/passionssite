@@ -1,0 +1,139 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* COLORSCHEME */
+:root {
+  /* Primitives */
+  /* grey */
+  --black: #252525;
+  /* brown */
+  --brown50: #f8f6e7;
+  --brown100: #bfb9a4;
+  /* green */
+  --green50: #737153;
+  --green100: #595943;
+
+  /* Tokens */
+  /* text */
+  --text_primary: var(--black);
+  --text_secondary: var(--green100);
+  --text_inverted: var(--brown50);
+  /* surfaces */
+  --surface_primary: var(--brown50);
+  --surface_secondary: var(--brown100);
+  --surface_third: var(--green100);
+  /* borders */
+  --border_primary: var(--green50);
+}
+
+/* TYPOGRAPHY */
+/* Fonts */
+@font-face {
+  font-family: body;
+  src: url("../fonts/mortmodern.woff2");
+}
+
+@font-face {
+  font-family: hero;
+  src: url("../fonts/brightwall.woff2");
+}
+
+@font-face {
+  font-family: headings;
+  src: url("../fonts/ashfortbrush.woff2");
+}
+
+/* Headings */
+h1 {
+  font-family: "hero";
+  font-size: 4rem;
+  text-align: center;
+  color: var(--text_secondary);
+}
+
+h2 {
+  font-family: "hero";
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--text_secondary);
+}
+
+h3 {
+  font-family: "headings";
+  font-size: 2rem;
+  text-align: center;
+  color: var(--text_primary);
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-family: "body";
+  color: var(--text_primary);
+  overflow-wrap: break-words;
+  hyphens: auto;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  font-family: "body";
+  color: var(--text_primary);
+  overflow-wrap: break-words;
+  hyphens: auto;
+  line-height: 150%;
+  margin-bottom: 1rem;
+}
+
+/* VIDEO */
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  playsinline: true;
+  display: block;
+}
+
+/* ELEMENTS */
+header {
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  height: 10vh;
+  padding: 1vh;
+  margin: 2vh;
+}
+
+.logo {
+  align-self: left;
+  margin-right: 10vh;
+}
+
+.title {
+  align-self: center;
+  margin-right: 10vh;
+}
+
+body {
+  background-color: var(--surface_primary);
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 5vh;
+}
