@@ -109,6 +109,15 @@ video {
 }
 
 /* ELEMENTS */
+.title {
+  cursor: none;
+}
+
+.logo {
+  height: auto;
+  width: 10vw;
+}
+
 header {
   display: flex;
   align-items: center;
