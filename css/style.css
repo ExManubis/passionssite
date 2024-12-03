@@ -113,23 +113,34 @@ video {
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  position: fixed;
   z-index: 1;
+  background-color: var(--surface_primary);
+  opacity: 0.9;
+  width: 90vw;
   height: 10vh;
-  padding: 1vh;
-  margin: 2vh;
+  padding-top: 2vh;
+  top: 0vh;
+  margin: 0vh 5vw 0vh 5vw;
 }
 
 .logo {
   align-self: left;
-  margin-right: 10vh;
 }
 
 .title {
   align-self: center;
-  margin-right: 10vh;
+}
+
+.burger_icon {
+  margin-top: 2.5vh;
+  width: 5vw;
+  height: 5vh;
 }
 
 body {
+  margin-top: 20vh;
   background-color: var(--surface_primary);
 }
 
