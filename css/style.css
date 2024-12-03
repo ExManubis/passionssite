@@ -79,12 +79,19 @@ h4 {
   font-size: 1.5rem;
   font-family: "body";
   color: var(--text_primary);
+  overflow-wrap: break-words;
+  hyphens: auto;
+  margin-bottom: 0.5rem;
 }
 
 p {
   font-size: 1rem;
   font-family: "body";
   color: var(--text_primary);
+  overflow-wrap: break-words;
+  hyphens: auto;
+  line-height: 150%;
+  margin-bottom: 1rem;
 }
 
 /* VIDEO */
@@ -101,6 +108,7 @@ video {
   playsinline: true;
   display: block;
 }
+
 /* ELEMENTS */
 header {
   display: flex;
