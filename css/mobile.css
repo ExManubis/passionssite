@@ -36,15 +36,24 @@
   text-align: center;
 }
 
+.img_w_text {
+  display: grid;
+}
+
+.img_w_text > * {
+  grid-column: 1;
+  grid-row: 1;
+  align-content: center;
+}
+
 .image_text {
-  grid-column: 1 / span 12;
-  grid-row: 12 / span 1;
-  place-self: center;
-  transform: translateY(-90%);
+  /* place-self: center; */
+  /* transform: translateY(-90%); */
   font-family: headings;
   font-size: 2rem;
   color: var(--text_inverted);
   text-shadow: 2px 2px #252525;
+  margin: auto 0 0.8em 0;
 }
 
 /* SECTION 2 */

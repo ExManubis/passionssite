@@ -54,6 +54,7 @@
   .boxed {
     border-image: url("../svg/box.svg") 40;
   }
+
   /* SECTION 1 */
   .hero {
     grid-row: 1 / span 4;
@@ -81,10 +82,11 @@
   }
 
   .image_text {
-    grid-column: 7 / span 6;
-    grid-row: 9 / span 2;
-    place-self: start center;
+    /* grid-column: 7 / span 6; */
+    /* grid-row: 9 / span 2; */
+    /* place-self: start center; */
     font-size: 3rem;
+    margin: auto 0 0.8em 0;
   }
 
   /* LINE 1 */
