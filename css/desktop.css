@@ -35,20 +35,12 @@
     aspect-ratio: unset;
   }
 
-  h3 {
-    font-size: 3rem;
-  }
-
   h4 {
-    font-size: 1.5rem;
     font-style: italic;
     line-height: 150%;
     text-align: center;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-  }
-  p {
-    font-size: 1.5rem;
   }
 
   .boxed {
@@ -79,14 +71,6 @@
   #img_1 {
     grid-column: 7 / span 6;
     grid-row: 7 / span 6;
-  }
-
-  .image_text {
-    /* grid-column: 7 / span 6; */
-    /* grid-row: 9 / span 2; */
-    /* place-self: start center; */
-    font-size: 3rem;
-    margin: auto 0 0.8em 0;
   }
 
   /* LINE 1 */
